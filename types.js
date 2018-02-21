@@ -11,7 +11,8 @@ module.exports = [
   },
   {
     "id": "3",
-    "name": "flying"
+    "name": "flying",
+    "pokemon": ['21', '22', '144', '145', '146']
   },
   {
     "id": "4",

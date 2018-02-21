@@ -16,15 +16,89 @@ ensure you know how to use the api once you've got it started.
 ### `GET /types`
 
 - Returns JSON data for all available Pokemon Types.
+- You can expect to receive an array of Type JSON objects
+
+```
+[
+  {
+    "id": "1",
+    "name": "normal",
+    "pokemon": [
+      "16",
+      "17",
+      "18",
+      "19",
+      "20"
+    ]
+  },
+]
+```
 
 ### `GET /types/:id`
 
 - Returns JSON data for a single Pokemon Type, based on the id of that type.
+- You can expect to receive a Type JSON object
+
+```
+{
+  "id": "1",
+  "name": "normal",
+  "pokemon": [
+    "16",
+    "17",
+    "18",
+    "19",
+    "20"
+  ]
+}
+```
 
 ### `GET /pokemon`
 
 - Returns JSON data for all available Pokemon.
+- You can expect to receive an array of Pokemon JSON objects
+
+```
+[
+  {
+    "name": "pidgey",
+    "id": "16",
+    "type": "1",
+    "weight": 18,
+    "sprites": {
+      "back_female": null,
+      "back_shiny_female": null,
+      "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png",
+      "front_female": null,
+      "front_shiny_female": null,
+      "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/16.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+      "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/16.png"
+    }
+  },
+]
+```
 
 ### `GET /pokemon/:id`
 
 - Returns JSON data for a single Pokemon, based on the id of the pokemon.
+- You can expect to receive a Pokemon JSON object
+
+```
+{
+  "name": "pidgey",
+  "id": "16",
+  "type": "1",
+  "weight": 18,
+  "sprites": {
+    "back_female": null,
+    "back_shiny_female": null,
+    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png",
+    "front_female": null,
+    "front_shiny_female": null,
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/16.png",
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/16.png"
+  }
+},
+```

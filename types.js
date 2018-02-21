@@ -26,63 +26,22 @@ module.exports = [
   },
   {
     "id": "6",
-    "name": "rock"
+    "name": "rock",
     "pokemon": ['74','75','76','95','111']
   },
   {
     "id": "7",
-    "name": "bug"
+    "name": "bug",
+    "pokemon": ['10', '11', '12', '13', '14']
   },
   {
     "id": "8",
-    "name": "ghost"
+    "name": "ghost",
+    "pokemon": ['92', '93', '94', '200', '292']
   },
   {
     "id": "9",
-    "name": "steel"
+    "name": "steel",
+    "pokemon": ['81', '82', '205', '208', '212']
   },
-  {
-    "id": "10",
-    "name": "fire"
-  },
-  {
-    "id": "11",
-    "name": "water"
-  },
-  {
-    "id": "12",
-    "name": "grass"
-  },
-  {
-    "id": "13",
-    "name": "electric"
-  },
-  {
-    "id": "14",
-    "name": "psychic"
-  },
-  {
-    "id": "15",
-    "name": "ice"
-  },
-  {
-    "id": "16",
-    "name": "dragon"
-  },
-  {
-    "id": "17",
-    "name": "dark"
-  },
-  {
-    "id": "18",
-    "name": "fairy"
-  },
-  {
-    "id": "10001",
-    "name": "unknown"
-  },
-  {
-    "id": "10002",
-    "name": "shadow"
-  }
 ]

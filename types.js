@@ -14,15 +14,18 @@ module.exports = [
   },
   {
     "id": "4",
-    "name": "poison"
+    "name": "poison",
+    "pokemon": ['1','2','3','13','14']
   },
   {
     "id": "5",
-    "name": "ground"
+    "name": "ground",
+    "pokemon": ['27','28','31','34','50']
   },
   {
     "id": "6",
     "name": "rock"
+    "pokemon": ['74','75','76','95','111']
   },
   {
     "id": "7",

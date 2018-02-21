@@ -1,4 +1,4 @@
-#### Pokemon API
+# Pokemon API
 
 ## Get up and running
 

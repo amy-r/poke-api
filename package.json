@@ -1,0 +1,19 @@
+{
+  "name": "poke-final",
+  "version": "1.0.0",
+  "description": "'Server backend for the FE3 Pokemon final'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest /*"
+  },
+  "author": "Will Mitchell <wvmitchell@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-cors": "0.0.3",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
+}

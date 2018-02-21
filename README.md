@@ -13,18 +13,18 @@ ensure you know how to use the api once you've got it started.
 
 ## Endpoints
 
-*/types*
+### `GET /types`
 
-Returns JSON data for all available Pokemon Types.
+- Returns JSON data for all available Pokemon Types.
 
-*/types/:id*
+### `GET /types/:id`
 
-Returns JSON data for a single Pokemon Type, based on the id of that type.
+- Returns JSON data for a single Pokemon Type, based on the id of that type.
 
-*/pokemon*
+### `GET /pokemon`
 
-Returns JSON data for all available Pokemon.
+- Returns JSON data for all available Pokemon.
 
-*/pokemon/:id*
+### `GET /pokemon/:id`
 
-Returns JSON data for a single Pokemon, based on the id of the pokemon.
+- Returns JSON data for a single Pokemon, based on the id of the pokemon.

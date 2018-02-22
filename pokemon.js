@@ -705,7 +705,7 @@ module.exports = [
   },
   {
     name: 'rhyhorn',
-    id: '95',
+    id: '111',
     type: '6',
     weight: 1150,
     sprites:  {
